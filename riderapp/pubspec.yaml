@@ -1,0 +1,58 @@
+name: riderapp
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  firebase_core: ^2.24.2
+  firebase_auth: ^4.15.1
+  firebase_database: ^10.3.7
+  fluttertoast: ^8.2.4
+  google_maps_flutter: ^2.5.0
+  geolocator: ^10.1.0
+  http: ^1.1.2
+  provider: ^6.1.1
+  flutter_polyline_points: ^2.0.0
+  font_awesome_flutter: ^10.6.0
+  animated_text_kit: ^4.2.2
+  
+ 
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+      - images/car_android.png
+      - images/car_ios.png
+      - images/dd-removebg-preview.png
+      - images/desticon.png
+      - images/desticon1.png
+      - images/logo1.png
+      - images/pickicon.png
+      - images/posimarker.png
+      - images/redmarker.png
+      - images/taxi.png
+      - images/user_icon.png
+      - images/bigtax.png
+
+      
+  fonts:
+    - family: Signatra
+      fonts:
+        - asset: fonts/Signatra.ttf
+    - family: bolt-semibold
+      fonts:
+        - asset: fonts/bolt-semibold.ttf
+    - family: bolt-regular
+      fonts:
+        - asset: fonts/bolt-regular.ttf
